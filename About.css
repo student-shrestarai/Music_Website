@@ -1,0 +1,206 @@
+*{
+    padding :0px;
+    margin:0px;
+ }
+ 
+ nav ul{
+     background-color: black;
+     width:100vw;
+     height:69px;
+     display:flex;
+     color:white;
+     align-items: center;
+     list-style-type: none;
+    
+     
+ }
+ 
+ 
+ 
+ nav ul li {
+ 
+    margin-right: 10px;
+    padding-right: 10px;
+    
+    
+ }
+ 
+ nav ul li a{
+     text-decoration: none;
+     color:white;
+ }
+ 
+ .brand{
+     display: flex;
+     align-items : center;
+     justify-content:center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size:1.5rem;
+      margin-right:20px; 
+ 
+ 
+ }
+ 
+ .brand img{
+     width:44px;
+     padding-left: 10px;
+     
+ }
+ 
+ .container{
+     min-height: 65vh;
+     background-color:rgba(13, 13, 13, 0.783);
+     color: white;
+     display:flex;
+     
+     margin:25px auto;
+     margin-bottom: 25px;
+     border-radius:12px;
+     width:70%;
+     padding : 18px ;
+    
+ 
+ }
+ 
+ .songlist h1{
+     margin-left: 400px  ;
+    
+ }
+ 
+ .songItem{
+     height:40px;
+     display:flex;
+     margin-bottom:12px;
+     
+     align-items : center;
+     /* background-color: aqua; */
+     justify-content:space-between;
+     background-color: white;
+     /* width:80%; */
+     color:black;
+    font-weight:bold;
+    border-radius : 34px;
+ }
+ 
+ 
+ .songItem img{
+     /* height: 50px ; */
+     width:43px;
+     margin-left:23px;
+     border-radius: 45px;
+ 
+ }
+ 
+ 
+ .songlist{
+     margin-top:25px;
+    
+ }
+ 
+ .songlistplay {
+    
+     margin-right:23px;
+     margin-left:23px;
+ }
+ 
+ .songlistplay i {
+     cursor:pointer;
+ }
+ 
+ .timestamp{
+     margin-right: 0 23px;
+ }
+ 
+ 
+ .songItemContainer{
+     margin-top:45px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 1.5rem;
+ }
+ /* bottom */
+ 
+ .bottom{
+     position: sticky;
+     background-color: black;
+     bottom: 0px;
+     height:135px;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color:white
+ }
+
+
+ .foorcontainer{
+    /* background-color:pink; */
+    width:90%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:500px;
+    
+
+ }
+
+ .foot_item_1{
+    /* margin-left:10px; */
+    width:30%;
+    margin-top :10px;
+    height :100px;
+    padding:15px 10px;
+    margin-left:40px;
+   
+
+
+    
+   
+
+ }
+
+
+
+ .foot_item_1  span {
+    text-align:center;
+ }
+
+
+
+ .foot_item_1 span{
+
+    color:rgb(156, 152, 152);
+
+ }
+
+
+
+
+
+ .foot_item_1 ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+ 
+ .foot_item_1 ul li{
+    list-style-type: none;
+   
+ }
+ 
+ .foot_item_1 span{
+    margin-bottom:20px;
+   
+    padding-bottom:20px;
+    
+ }
+
+
+ .foot_sub_items{
+    margin-top:12px;
+ }
